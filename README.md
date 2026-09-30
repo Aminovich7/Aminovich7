@@ -19,9 +19,8 @@ Junior Python backend developer building web applications and REST APIs with **D
 | [job-x](https://github.com/Aminovich7/job-x) | Django REST Framework · PostgreSQL · JWT | Freelance marketplace API: clients post projects, freelancers bid, contracts are created and managed. Team project. |
 | [suhulat.uz](https://github.com/Aminovich7/suhulat.uz) | Django REST Framework · JWT | Marketplace API with listings, requests for quotation and offers, cart, orders, reviews and an admin API. |
 | [smart-city](https://github.com/Aminovich7/smart-city) | Django | City incident management with citizen, operator, technician and admin roles. Team project. |
-| [fastapi-nt](https://github.com/Aminovich7/fastapi-nt) | FastAPI | Course homeworks: async SQLAlchemy, Alembic, JWT, pytest, Redis, Celery, RabbitMQ. |
+| [fastapi-nt](https://github.com/Aminovich7/najot-talim/tree/main/fastapi-nt) | FastAPI | Course homeworks: async SQLAlchemy, Alembic, JWT, pytest, Redis, Celery, RabbitMQ. |
 
 ## Course work
 
-- [django-lessons](https://github.com/Aminovich7/django-lessons): Django homework and exam projects
-- [drf-lessons](https://github.com/Aminovich7/drf-lessons): Django REST Framework homework and exam projects
+[najot-talim](https://github.com/Aminovich7/najot-talim): homework and exam projects from my Najot Ta'lim course, covering Django, Django REST Framework and FastAPI.
