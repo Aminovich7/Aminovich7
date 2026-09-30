@@ -1,6 +1,6 @@
 # Mukhammad Batoshev
 
-**Python Backend Developer · FastAPI · Django REST Framework**
+**Python Backend Developer · FastAPI · Django REST Framework · Django**
 
 Tashkent, Uzbekistan · Open to backend developer roles · [m.aminovich7@gmail.com](mailto:m.aminovich7@gmail.com) · Telegram [@aminovich7](https://t.me/Aminovich7)
 
