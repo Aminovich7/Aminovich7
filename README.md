@@ -75,7 +75,7 @@ Nine homework projects that build from basic CRUD to async SQLAlchemy, Alembic m
 
 ## Skills
 
-- **Languages:** Python, SQL, JavaScript
+- **Languages:** Python, SQL
 - **Frameworks:** FastAPI, Django, Django REST Framework, Pydantic, Jinja2
 - **Data:** PostgreSQL, SQLAlchemy 2.0 (sync and async), Django ORM, Alembic
 - **Async and messaging:** asyncio, Celery, Redis, RabbitMQ
