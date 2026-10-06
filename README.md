@@ -2,7 +2,7 @@
 
 **Python Backend Developer · FastAPI · Django REST Framework · Django**
 
-Tashkent, Uzbekistan · Open to backend developer roles · [m.aminovich7@gmail.com](mailto:m.aminovich7@gmail.com) · Telegram [@aminovich7](https://t.me/Aminovich7)
+Tashkent, Uzbekistan · Open to backend developer roles · [Portfolio](https://aminovich7.github.io/) · [m.aminovich7@gmail.com](mailto:m.aminovich7@gmail.com) · Telegram [@aminovich7](https://t.me/Aminovich7)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
@@ -33,7 +33,7 @@ Receipts, doctors' commissions, payroll, pharmacy account and expenses for a pri
 
 FastAPI · SQLAlchemy 2.0 (async) · PostgreSQL · Alembic · Redis · Pydantic v2 · pytest · Docker
 
-[**Read the case study →**](https://github.com/Aminovich7/clinic-crm-showcase) *(source is private, client project — walkthrough on request)*
+[**▶ Try the live demo**](https://aminovich7.github.io/clinic-crm-demo/) · [**Read the case study →**](https://github.com/Aminovich7/clinic-crm-showcase) *(source is private, client project — walkthrough on request)*
 
 ---
 
@@ -86,4 +86,4 @@ Nine homework projects that build from basic CRUD to async SQLAlchemy, Alembic m
 
 ## Contact
 
-The quickest way to reach me is [email](mailto:m.aminovich7@gmail.com) or Telegram [@aminovich7](https://t.me/Aminovich7).
+The quickest way to reach me is [email](mailto:m.aminovich7@gmail.com) or Telegram [@aminovich7](https://t.me/Aminovich7). More about my work: [aminovich7.github.io](https://aminovich7.github.io/).
