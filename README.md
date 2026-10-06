@@ -13,7 +13,7 @@ Tashkent, Uzbekistan · Open to backend developer roles · [m.aminovich7@gmail.c
 ![Celery](https://img.shields.io/badge/Celery-37814A?logo=celery&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
-I build backend systems in Python, mostly with FastAPI and async SQLAlchemy. My most complete work is a finance and payroll system for a private clinic that I designed, built, tested and deployed on my own. It replaced the clinic's spreadsheets and paper records and is deployed to production.
+I build backend systems in Python, mostly with FastAPI and async SQLAlchemy. My most complete work is a finance and payroll system for a private clinic that I designed, built, tested and deployed on my own. It is built to replace the clinic's spreadsheets and paper records, and is deployed and about to go into use.
 
 I care about getting the details right: exact money arithmetic, role-based access enforced on the server, tests against a real database, and deployments that are documented and backed up.
 
@@ -21,13 +21,13 @@ I care about getting the details right: exact money arithmetic, role-based acces
 
 ## Featured project
 
-### [Clinic CRM](https://github.com/Aminovich7/clinic-crm-showcase) — FastAPI · deployed to production
+### [Clinic CRM](https://github.com/Aminovich7/clinic-crm-showcase) — FastAPI · deployed
 
 Receipts, doctors' commissions, payroll, pharmacy account and expenses for a private clinic, with a dashboard and Excel-exportable reports.
 
 - **86 API endpoints** across 8 modules, three user roles, server-rendered UI in Uzbek
 - **158 automated tests** against real PostgreSQL and Redis, including 65 HTTP-level security and permission tests
-- **Correct by design:** `Decimal` money with per-receipt rounding, business dates in Tashkent time, salary proration by working day
+- **Correct by design:** `Decimal` money with per-receipt rounding, business dates in the clinic's time zone, salary proration by working day
 - **Hardened:** JWT with token revocation, Argon2, rate-limited login, strict CSP, non-root container; fixed an N+1 query that ran five queries per staff member
 - **Operated:** Docker on Render, PostgreSQL on Neon, Redis, daily verified backups with retention
 
