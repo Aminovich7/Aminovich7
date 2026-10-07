@@ -2,7 +2,7 @@
 
 **Python Backend Developer · FastAPI · Django REST Framework · Django**
 
-Tashkent, Uzbekistan · Open to backend developer roles · [Portfolio](https://aminovich7.github.io/) · [m.aminovich7@gmail.com](mailto:m.aminovich7@gmail.com) · Telegram [@aminovich7](https://t.me/Aminovich7)
+Tashkent, Uzbekistan · Open to backend developer roles · [Portfolio](https://aminovich7.github.io/) · [LinkedIn](https://www.linkedin.com/in/mukhammad-batoshev) · [m.aminovich7@gmail.com](mailto:m.aminovich7@gmail.com) · Telegram [@aminovich7](https://t.me/Aminovich7)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
@@ -86,4 +86,4 @@ Nine homework projects that build from basic CRUD to async SQLAlchemy, Alembic m
 
 ## Contact
 
-The quickest way to reach me is [email](mailto:m.aminovich7@gmail.com) or Telegram [@aminovich7](https://t.me/Aminovich7). More about my work: [aminovich7.github.io](https://aminovich7.github.io/).
+The quickest way to reach me is [email](mailto:m.aminovich7@gmail.com) or Telegram [@aminovich7](https://t.me/Aminovich7). More about my work: [aminovich7.github.io](https://aminovich7.github.io/) and [LinkedIn](https://www.linkedin.com/in/mukhammad-batoshev).
