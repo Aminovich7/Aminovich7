@@ -25,7 +25,7 @@ I care about getting the details right: exact money arithmetic, role-based acces
 
 Receipts, doctors' commissions, payroll, pharmacy account and expenses for a private clinic, with a dashboard and Excel-exportable reports.
 
-- **86 API endpoints** across 8 modules, three user roles, server-rendered UI in Uzbek
+- **85 API endpoints** across 8 modules, three user roles, server-rendered UI in Uzbek
 - **158 automated tests** against real PostgreSQL and Redis, including 65 HTTP-level security and permission tests
 - **Correct by design:** `Decimal` money with per-receipt rounding, business dates in the clinic's time zone, salary proration by working day
 - **Hardened:** JWT with token revocation, Argon2, rate-limited login, strict CSP, non-root container; fixed an N+1 query that ran five queries per staff member
