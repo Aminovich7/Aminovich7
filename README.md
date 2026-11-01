@@ -23,13 +23,13 @@ I care about getting the details right: exact money arithmetic, role-based acces
 
 ### [Clinic CRM](https://github.com/Aminovich7/clinic-crm-showcase) — FastAPI · deployed
 
-Receipts, doctors' commissions, payroll, pharmacy account and expenses for a private clinic, with a dashboard and Excel-exportable reports.
+Receipts, doctors' commissions, payroll, pharmacy account and expenses for a private clinic, with a dashboard that shows where every so'm went (money-flow bar, statement, daily income chart) and Excel-exportable reports.
 
-- **85 API endpoints** across 8 modules, three user roles, server-rendered UI in Uzbek
-- **158 automated tests** against real PostgreSQL and Redis, including 65 HTTP-level security and permission tests
+- **86 API endpoints** across 8 modules, three user roles, server-rendered UI in Uzbek
+- **166 automated tests** against real PostgreSQL and Redis, including 69 HTTP-level security and permission tests
 - **Correct by design:** `Decimal` money with per-receipt rounding, business dates in the clinic's time zone, salary proration by working day
 - **Hardened:** JWT with token revocation, Argon2, rate-limited login, strict CSP, non-root container; fixed an N+1 query that ran five queries per staff member
-- **Operated:** Docker on Render, PostgreSQL on Neon, Redis, daily verified backups with retention
+- **Deployment:** Docker on Render, PostgreSQL on Neon, Redis, daily verified backups with retention
 
 FastAPI · SQLAlchemy 2.0 (async) · PostgreSQL · Alembic · Redis · Pydantic v2 · pytest · Docker
 
@@ -46,6 +46,7 @@ Teachers run courses and groups with video lessons; students enrol, pay in full 
 - Four roles with a documented permission matrix; one FastAPI app serves both a JSON API and a Jinja2 web UI
 - Instalment payment plans with scheduled Celery jobs that expire stale enrolments hourly and flag overdue instalments daily
 - **193 passing tests** · Docker Compose with PostgreSQL, Redis, Celery worker and beat · rate limiting
+- Built with Claude Code from my own written specification (`tx/TZ.md`); I directed the build and reviewed the code and tests
 
 FastAPI · async SQLAlchemy · PostgreSQL · Alembic · Celery · Redis · JWT · pytest · Docker
 
@@ -60,7 +61,7 @@ Nine homework projects that build from basic CRUD to async SQLAlchemy, Alembic m
 | Project | What it is | Highlights |
 |---|---|---|
 | [**Suhulat**](https://github.com/Aminovich7/suhulat.uz) | Marketplace for goods sold by weight or volume: listings, requests for quotation with counter-offers, orders, cart, reviews, admin moderation | Order status workflow, JWT with token blacklist, role-based permissions, throttling, OpenAPI docs, 19 tests |
-| [**Job-X**](https://github.com/Aminovich7/job-x) | Freelance marketplace API, Upwork-style: projects, bids, contracts | 28 endpoints, JWT, filtering, OpenAPI docs, Postman collection · team project |
+| [**Job-X**](https://github.com/Aminovich7/job-x) | Freelance marketplace API, Upwork-style: projects, bids, contracts | JWT, filtering, OpenAPI docs, Postman collection for the main flow · team project |
 
 ## Django
 
